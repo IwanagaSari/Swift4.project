@@ -84,8 +84,10 @@ class Capter2_Section2_1__: UIViewController {
             print(num, msg)
         }
     }
+    @IBAction func toSection8_2(_ sender: UIButton) {
+        self.performSegue(withIdentifier: "toSection8_2Segue", sender: nil)
+    }
     
-
 
 }
 
